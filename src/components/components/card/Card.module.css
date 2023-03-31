@@ -1,0 +1,32 @@
+.card {
+    background-color: bisque;
+    border: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.imgContainer {
+    height: 150px;
+    width: 150px;
+}
+.img{
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+.nombreContainer {
+    font-weight: bold;
+    text-align: center;
+
+}
+.nombre {
+    margin-bottom: 0px;
+}
+.card:hover {
+    transform: scale(0.99);
+}
